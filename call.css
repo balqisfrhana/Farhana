@@ -1,0 +1,320 @@
+/*  
+=========================
+Rumah Kebajikan Anak Yatim & Dhuafa' Darul Mizan
+=========================
+*/
+
+
+body {
+  background-image: url('image/wallpaper.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100%;
+  font: 100% Geneva, Tahoma, Verdana, sans-serif;
+
+
+<style>
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+</style>
+
+
+<div class="content">
+  <!-- Page content -->
+</div>
+
+</body>
+}
+
+	
+
+
+/* normalize.css v2.1.2 | MIT License | git.io/normalize
+    (truncated for example in book)
+---------------------------------------------------------------- */
+
+/* ::: HTML5 display definitions ::: */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+
+/* ::: Base ::: */
+/**
+ * Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+}
+
+/* ::: Links ::: */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ::: Typography ::: */
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/* ::: Embedded content ::: */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+img {
+  border: 0;
+}
+/* -- end of abridged normalize -- */
+
+
+/* CONTAINERS
+------------------------------------------ */
+.page {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.container {
+  background: url(../img/bg.png) repeat-y 629px 0;
+  padding-bottom: 1.9375em;
+}
+
+main {
+  float: left;
+  width: 600px;
+}
+
+.sidebar {
+  float: right;
+  margin-top: 1.875em;
+  width: 300px;
+}
+ 
+
+/* WEB ICON FONT
+  (the social icons that appear
+  in the upper-right corner)
+------------------------------------------ */
+@font-face {
+  font-family: 'Social Icons';
+  src: url("font/socialico-webfont.eot");
+  src: url("font/socialico-webfont.eot?#iefix") format("embedded-opentype"), 
+        url("font/socialico-webfont.woff") format("woff"), 
+        url("font/socialico-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* navigation section */
+.nav-main {
+	 border-bottom: 1px solid #c7c7c8;
+  border-top: 5px solid #019443;
+  margin-bottom: 0;
+  padding: .45em 0 .5em;
+}
+
+
+.nav-main li {
+  border-left: 1px solid #c8c8c8;
+  display: inline-block;
+  text-align: left;
+}
+
+.nav-main li:first-child {
+  border-left: none;
+}
+
+.nav-main li:last-child a {
+  padding-right: 0;
+}
+
+.nav-main a {
+  color: #292929;
+  display: inline-block;
+  font-size: 1.125em; /* 18px/16px */
+  padding: .5em 1.15em .5em 1.4em;
+}
+
+.nav-main a:hover {
+  color: #029443;
+  text-decoration: none;
+}
+
+.nav-main .current-page,
+.nav-main .current-page:hover {
+  color: #747474;
+  cursor: default;
+}
+
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+body{ 
+  width: 100%
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  
+}
+h1 {
+  margin-bottom: .4125em;
+  font-size: 1.5em;
+  color: #800080;
+  font: times new roman;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+
+.map iframe{
+  width: 100%;
+  height: 250;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+
+/* Selecting Links based on their STATE (pseudo class) */
+
+
+a:link {color: #0000ff;
+	text-decoration:none;}
+
+
+a:visited {color: #ff1493;
+	text-decoration:none;}
+
+
+a:hover {color: #ffcocb;
+	text-decoration: underline;
+	font-size: 20px;}
+
+
+
+/* SIDEBAR
+------------------------------------------ */
+.mod h2 {
+  border-bottom: 1px solid #dbdbdb;
+  margin-top: 2.571em;
+  padding-bottom: .75em;
+}
+
+/* ::: Address ::: */
+.address {
+  background: #ac99a4;
+  padding: 0.313em 0.625em 0.625em;
+}
+
+
+.address h2,
+.address p {
+  color: #800080;
+}
+
+.address p {
+  font-size: 0.813em;
+  line-height: 1.5;
+}
+
+.mod {
+  margin: 1.438em 0 0.813em;
+}
+
+.mod img {
+  border: 5px solid #ac99a4;
+}
+
+.mod h2 {
+  color: #800080;
+}
+
+
+
+/* FOOTER
+------------------------------------------ */
+footer[role="contentinfo"] {
+  border-top: 1px solid #cacbcb;
+}
+
+
+/* html5boilerplate.com Clearfix
+--------------------------------- */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+  *zoom: 1;
+
+
+
+}

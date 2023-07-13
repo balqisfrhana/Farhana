@@ -1,0 +1,410 @@
+/*  
+=========================
+Rumah Kebajikan Anak Yatim & Dhuafa' Darul Mizan
+=========================
+*/
+
+
+
+body {
+  background-image: url('image/wallpaper.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100%;
+  font: 100% Geneva, Tahoma, Verdana, sans-serif;
+}
+
+<style>
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+</style>
+<body>
+
+<div class="content">
+  <!-- Page content -->
+</div>
+
+</body>
+	
+
+
+/* GENERAL STYLING OF ELEMENTS
+----------------------------------- */
+body {
+	background-color: #88b2d2;
+	font: 100% Geneva, Tahoma, Verdana, sans-serif;
+
+	/* center page in the browser */
+	width: 43em;
+	margin: 0 auto;
+}
+
+h1,
+h2 {
+	letter-spacing: 1px;
+	text-align: center;
+	
+	/* Can't combine these into 
+	font shorthand unless you include 
+	font size with them in the shorthand. */
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	text-transform: uppercase;
+
+	/* Can't combine these into
+	font shorthand unless you include 
+	font family with them in the shorthand. */
+	font-size: 2.1875em; /* 35px/16px */
+	line-height: 1.19318; /* I left this out of book just to keep example simple */
+}
+ 
+h2 {
+	background-color: #eaebef;
+	color: #7d717c;
+	font-size: 1.75em; /* 28px/16px */
+	font-variant: small-caps;
+}
+
+p {
+	text-align: justify;
+}
+
+em,
+a:link,
+.intro .subhead {
+	font-weight: bold;
+}
+
+
+/* CONTENT
+----------------------------------- */
+.architect {
+	background-color: #fff;
+	padding: 1.5em 1.75em;
+}
+
+/* :::: Intro ::::: */
+.intro {
+	background-color: #dba0b3;
+	color: #180c0c;
+	line-height: 1.45;
+	padding: 1px 1.875em .7em;
+}
+
+.intro .subhead {
+	font-size: 1.125em; /* 18px/16px */
+	text-align: center;
+}
+
+.intro p {
+	font-size: 1.0625em; /* 17px/16px */
+}
+/* CONTAINERS
+------------------------------------------ */
+.page {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.container {
+  background: url(../img/bg.png) repeat-y 629px 0;
+  padding-bottom: 1.9375em;
+}
+
+main {
+  float: left;
+  width: 600px;
+}
+
+.sidebar {
+  float: right;
+  margin-top: 1.875em;
+  width: 300px;
+}
+
+
+/* MASTHEAD
+------------------------------------------ */
+.masthead {
+  padding-top: 10px;
+  position: relative;
+}
+
+.logo {
+  font-size: 10px;
+  line-height: 1;
+  margin-bottom: -8px;
+  margin-top: 0;
+  text-align: left;
+}
+
+
+/* navigation section */
+.nav-main {
+	 border-bottom: 1px solid #c7c7c8;
+  border-top: 5px solid #019443;
+  margin-bottom: 0;
+  padding: .45em 0 .5em;
+}
+
+
+.nav-main li {
+  border-left: 1px solid #c8c8c8;
+  display: inline-block;
+  text-align: left;
+}
+
+.nav-main li:first-child {
+  border-left: none;
+}
+
+.nav-main li:last-child a {
+  padding-right: 0;
+}
+
+.nav-main a {
+  color: #292929;
+  display: inline-block;
+  font-size: 1.125em; /* 18px/16px */
+  padding: .5em 1.15em .5em 1.4em;
+}
+
+.nav-main a:hover {
+  color: #029443;
+  text-decoration: none;
+}
+
+.nav-main .current-page,
+.nav-main .current-page:hover {
+  color: #747474;
+  cursor: default;
+}
+
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+/* Selecting Links based on their STATE (pseudo class) */
+
+
+a:link {color: #0000ff;
+	text-decoration:none;}
+
+
+a:visited {color: #ff1493;
+	text-decoration:none;}
+
+
+a:hover {color: #ffcocb;
+	text-decoration: underline;
+	font-size: 20px;}
+
+
+
+
+
+/* ::: Social Sites Icons ::: */
+.social-sites {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: -3px;
+  top: 41px;
+}
+
+.social-sites li {
+  display: inline;
+  margin-left: -1px;
+}
+
+.social-sites a {
+  color: #019443;
+  font-family: 'Social Icons', sans-serif;
+  font-size: 46px;
+  line-height: .8;
+  vertical-align: middle;
+}
+
+.social-sites a:hover {
+  color: #1162a4;
+  text-decoration: none;
+}
+
+
+/* MAIN CONTENT
+------------------------------------------ */
+main > 
+.post:first-child > h1 {
+  margin-top: 0.904em;
+}
+
+h1 {
+  margin-bottom: .4125em;
+  font-size: 3em;
+  color: #800080;
+  font: times new roman;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.post-photo {
+  float: left;
+  margin-bottom: 2px;
+  margin-right: 22px;
+  max-width: 61.667%;
+}
+
+.post-blurb p {
+  color: #363636;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* ::: Blog Post Footer ::: */
+.post-footer {
+  border-bottom: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+  padding-bottom: .7em;
+  padding-top: .7em;
+}
+
+.post-footer time:before {
+  content: 'â€¢  ';
+}
+
+.post-footer a {
+  font-weight: bold;
+}
+
+.footer p {
+  color: #3a3a3a;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 0.688em;
+}
+
+.footer p small {
+  font-size: inherit;
+}
+
+/* ::: Pagination Links Below Blog Posts ::: */
+.pagination {
+  margin: 45px 0 0;
+  padding: 0;
+}
+
+.pagination li {
+  display: inline-block;
+  font: 0.875em arial, helvetica, sans-serif;
+  margin-right: 0.25em;
+}
+
+
+/* SIDEBAR
+------------------------------------------ */
+.mod h2 {
+  border-bottom: 1px solid #dbdbdb;
+  margin-top: 2.571em;
+  padding-bottom: .75em;
+}
+
+/* ::: Address ::: */
+.address {
+  background: #ac99a4;
+  padding: 0.313em 0.625em 0.625em;
+}
+
+
+.address h2,
+.address p {
+  color: #800080;
+}
+
+.address p {
+  font-size: 0.813em;
+  line-height: 1.5;
+}
+
+.mod {
+  margin: 1.438em 0 0.813em;
+}
+
+.mod img {
+  border: 5px solid #ac99a4;
+}
+
+.mod h2 {
+  color: #800080;
+}
+
+
+
+
+/* ::: Previous and Shared Posts ::: */
+.links {
+  margin: 1.5em 0 4.125em;
+  padding-left: 0;
+  width: 270px;
+}
+
+.links li {
+  margin-bottom: 1.1em;
+}
+
+.links a {
+  font-size: 1.125em;
+  line-height: 1.195;
+}
+
+
+/* FOOTER
+------------------------------------------ */
+footer[role="contentinfo"] {
+  border-top: 1px solid #cacbcb;
+}
+
+
+/* html5boilerplate.com Clearfix
+--------------------------------- */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+  *zoom: 1;
+}
